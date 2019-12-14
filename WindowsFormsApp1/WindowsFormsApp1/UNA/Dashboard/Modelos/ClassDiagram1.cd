@@ -3,8 +3,15 @@
   <Class Name="Modelos.Usuario">
     <Position X="3.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
-      <FileName>Modelos\Usuario.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAEAAAIAAAgAAAAA=</HashCode>
+      <FileName>UNA\Dashboard\Modelos\Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApp1.Cuentas">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAIAAAAAgAAIAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>UNA\Dashboard\Modelos\Cuentas.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

@@ -46,11 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UNA\Dashboard\Modelos\Cuentas.cs" />
     <Compile Include="UNA\Dashboard\Formularios\DashboardForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UNA\Dashboard\Formularios\DashboardForm.Designer.cs">
       <DependentUpon>DashboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UNA\Dashboard\Formularios\CuentasPorCobrarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UNA\Dashboard\Formularios\CuentasPorCobrarForm.Designer.cs">
+      <DependentUpon>CuentasPorCobrarForm.cs</DependentUpon>
     </Compile>
     <Compile Include="UNA\Dashboard\Formularios\LoginForm.cs">
       <SubType>Form</SubType>
@@ -61,6 +68,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UNA\Dashboard\Modelos\Usuario.cs" />
+    <EmbeddedResource Include="UNA\Dashboard\Formularios\CuentasPorCobrarForm.resx">
+      <DependentUpon>CuentasPorCobrarForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UNA\Dashboard\Formularios\DashboardForm.resx">
       <DependentUpon>DashboardForm.cs</DependentUpon>
     </EmbeddedResource>

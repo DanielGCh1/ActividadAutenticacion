@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp1
+﻿namespace WindowsFormsApp1.UNA.Dashboard.Formularios
 {
     partial class LoginForm
     {
