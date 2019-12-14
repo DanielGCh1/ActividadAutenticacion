@@ -46,16 +46,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LoginForm.cs">
+    <Compile Include="UNA\Dashboard\Formularios\DashboardForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include=".Designer.cs">
-      <DependentUpon>LoginForm.cs</DependentUpon>
+    <Compile Include="UNA\Dashboard\Formularios\DashboardForm.Designer.cs">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UNA\Dashboard\Formularios\LoginForm.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UNA\Dashboard\Formularios\LoginForm.designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="LoginForm.resx">
+    <Compile Include="UNA\Dashboard\Modelos\Usuario.cs" />
+    <EmbeddedResource Include="UNA\Dashboard\Formularios\DashboardForm.resx">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UNA\Dashboard\Formularios\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -67,6 +76,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="UNA\Dashboard\Modelos\ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -81,7 +91,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Modelos\" />
+    <Folder Include="Recursos\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class Autenticacion
+    partial class LoginForm
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -66,16 +66,17 @@
             this.textBoxUsuario.Name = "textBoxUsuario";
             this.textBoxUsuario.Size = new System.Drawing.Size(226, 20);
             this.textBoxUsuario.TabIndex = 2;
-            this.textBoxUsuario.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TextBoxUsuario_MouseClick);
+            this.textBoxUsuario.TextChanged += new System.EventHandler(this.textBoxUsuario_TextChanged);
+            this.textBoxUsuario.Leave += new System.EventHandler(this.TextBoxUsuario_Leave);
             // 
             // textBoxContraseña
             // 
             this.textBoxContraseña.Location = new System.Drawing.Point(161, 97);
             this.textBoxContraseña.Name = "textBoxContraseña";
+            this.textBoxContraseña.PasswordChar = '*';
             this.textBoxContraseña.Size = new System.Drawing.Size(226, 20);
             this.textBoxContraseña.TabIndex = 3;
-            this.textBoxContraseña.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TextBoxContraseña_MouseClick);
-            this.textBoxContraseña.TextChanged += new System.EventHandler(this.textBoxContraseña_TextChanged);
+            this.textBoxContraseña.Leave += new System.EventHandler(this.TextBoxContraseña_Leave);
             // 
             // buttonCancelar
             // 
@@ -87,7 +88,6 @@
             this.buttonCancelar.Text = "Cancelar";
             this.buttonCancelar.UseVisualStyleBackColor = true;
             this.buttonCancelar.Click += new System.EventHandler(this.buttonCancelar_Click);
-            this.buttonCancelar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ButtonCancelar_MouseClick);
             // 
             // buttonAceptar
             // 
@@ -97,9 +97,7 @@
             this.buttonAceptar.TabIndex = 5;
             this.buttonAceptar.Text = "Aceptar";
             this.buttonAceptar.UseVisualStyleBackColor = true;
-            this.buttonAceptar.Click += new System.EventHandler(this.buttonAceptar_Click);
-            this.buttonAceptar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ButtonAceptar_KeyPress);
-            this.buttonAceptar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ButtonAceptar_MouseClick);
+            this.buttonAceptar.Click += new System.EventHandler(this.ButtonAceptar_Click);
             // 
             // linkLabelRecuperacionContraseña
             // 
@@ -155,6 +153,11 @@
         private System.Windows.Forms.LinkLabel linkLabelRecuperacionContraseña;
         private System.Windows.Forms.ErrorProvider errorProviderLogin;
         private System.Windows.Forms.ErrorProvider errorProviderLoginContraseña;
+
+        private void textBoxUsuario_TextChanged(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }
 
