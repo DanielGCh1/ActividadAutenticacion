@@ -10,3 +10,14 @@ C:\Users\116620380\Documents\GitHub\ActividadAutenticacion\WindowsFormsApp1\Wind
 C:\Users\116620380\Documents\GitHub\ActividadAutenticacion\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.UNA.Dashboard.Formularios.CuentasPorCobrarForm.resources
 C:\Users\116620380\Documents\GitHub\ActividadAutenticacion\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.UNA.Dashboard.Formularios.DashboardForm.resources
 C:\Users\116620380\Documents\GitHub\ActividadAutenticacion\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.UNA.Dashboard.Formularios.LoginForm.resources
+C:\Users\dgcha\Documents\GitHub\ActividadAutenticacion\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\dgcha\Documents\GitHub\ActividadAutenticacion\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\dgcha\Documents\GitHub\ActividadAutenticacion\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\dgcha\Documents\GitHub\ActividadAutenticacion\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\dgcha\Documents\GitHub\ActividadAutenticacion\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.UNA.Dashboard.Formularios.CuentasPorCobrarForm.resources
+C:\Users\dgcha\Documents\GitHub\ActividadAutenticacion\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.UNA.Dashboard.Formularios.DashboardForm.resources
+C:\Users\dgcha\Documents\GitHub\ActividadAutenticacion\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.UNA.Dashboard.Formularios.LoginForm.resources
+C:\Users\dgcha\Documents\GitHub\ActividadAutenticacion\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\dgcha\Documents\GitHub\ActividadAutenticacion\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\dgcha\Documents\GitHub\ActividadAutenticacion\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\dgcha\Documents\GitHub\ActividadAutenticacion\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

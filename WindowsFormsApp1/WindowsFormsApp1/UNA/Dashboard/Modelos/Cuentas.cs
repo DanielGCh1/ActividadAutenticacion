@@ -7,6 +7,20 @@ namespace WindowsFormsApp1
 {
     public class Cuentas
     {
+        public Cuentas(int cedula, string nombre, double monto, int telefono, string direcion)
+        {
+            Cedula = cedula;
+            Nombre = nombre;
+            Monto = monto;
+            Telefono = telefono;
+            Direcion = direcion;
+        }
+
+        public Cuentas()
+        {
+            
+        }
+
         public int Cedula
         {
             get;
